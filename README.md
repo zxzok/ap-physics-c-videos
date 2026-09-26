@@ -1,6 +1,6 @@
 # AP Physics C: Mechanics — Animated Lessons · 动画讲解
 
-**▶ Watch online / 在线观看: https://zxzok.github.io/ap-physics-c-videos/**
+**▶ Watch online / 在线观看: https://leozhang8654.github.io/ap-physics-c-videos/**
 
 18 short animated lessons for AP Physics C: Mechanics (Units 1–3), each built around typical AP problems:
 question → pause and think → animated solution → boxed answer. Every episode is available in **English** and **中文**.
@@ -15,3 +15,5 @@ question → pause and think → animated solution → boxed answer. Every episo
 
 The site is a single static page (`index.html` + `assets/`); videos are in `videos/zh/` and `videos/en/`.
 Animations made with [Manim Community](https://www.manim.community/); narration by edge-tts.
+These study videos were produced with AI assistance (Claude) — scripts, animation code and narration are AI-generated.
+本系列视频由 AI（Claude）辅助制作，讲稿、动画代码与配音均为 AI 生成，用作学习资料。
