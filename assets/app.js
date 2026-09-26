@@ -224,6 +224,10 @@
     const ch = currentChapterIndex();   // keep your place: jump to the same chapter in the other language
     lang = b.dataset.lang;
     storeLang(lang);
+    if (params.has("lang")) {           // keep a shared ?lang= link in sync with the choice
+      params.set("lang", lang);
+      history.replaceState(null, "", `${location.pathname}?${params}${location.hash}`);
+    }
     route(ch);
   }));
   window.addEventListener("hashchange", () => route(null));
