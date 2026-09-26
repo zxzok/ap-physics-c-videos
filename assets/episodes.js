@@ -227,6 +227,181 @@ window.EPISODE_DATA = {
        ]
       }
      ]
+    },
+    "en": {
+     "video": "videos/en/01-friction.mp4",
+     "poster": "posters/en/01-friction.jpg",
+     "duration": 846.3,
+     "chapters": [
+      {
+       "t": 0.0,
+       "title": "Intro"
+      },
+      {
+       "t": 24.07,
+       "title": "① Which way does friction point?"
+      },
+      {
+       "t": 93.73,
+       "title": "② Where does friction come from?"
+      },
+      {
+       "t": 208.57,
+       "title": "③ Static vs. kinetic friction"
+      },
+      {
+       "t": 308.1,
+       "title": "④ Incline: which box slides first?"
+      },
+      {
+       "t": 419.73,
+       "title": "⑤ Calculus: the best angle to pull"
+      },
+      {
+       "t": 532.6,
+       "title": "⑥ Braking distance and ABS"
+      },
+      {
+       "t": 658.96,
+       "title": "★ Challenge: the magic of a rope"
+      },
+      {
+       "t": 780.7,
+       "title": "Summary"
+      }
+     ],
+     "transcript": [
+      {
+       "title": "Intro",
+       "lines": [
+        "Welcome to the AP Physics C lesson on friction.",
+        "Friction may be the force you know best, but it's also the easiest one to get wrong.",
+        "Today, we'll use six questions, plus one challenge problem, to really nail down friction.",
+        "When each question appears, pause the video and think it through yourself before you keep watching."
+       ]
+      },
+      {
+       "title": "① Which way does friction point?",
+       "lines": [
+        "First question: when you walk forward, does the ground's friction on your foot point forward, or backward?",
+        "A lot of people blurt out: backward, because friction always opposes motion.",
+        "But the right answer is the opposite: forward!",
+        "Watch the back foot. As you take a step, that foot is actually pushing backward on the ground.",
+        "If the ground were smooth ice, your foot would slip backward, and you'd fall right where you stand.",
+        "Friction's job is to stop exactly that backward slip. So the ground's friction on your foot points forward.",
+        "That forward friction is what pushes you ahead. Without it, you couldn't take a single step.",
+        "So remember: friction opposes relative sliding between the surfaces, or the tendency to slide. It doesn't necessarily oppose the object's motion.",
+        "Cars work the same way. The engine makes the wheels push back on the road, and the road's static friction pushes the car forward.",
+        "Without friction, the wheels would just spin in place."
+       ]
+      },
+      {
+       "title": "② Where does friction come from?",
+       "lines": [
+        "So where does friction actually come from?",
+        "Even the smoothest surface is bumpy under a microscope, like two rugged mountain ranges.",
+        "The two surfaces really touch at only a few peaks. At these contact points, atoms attract each other and can even lock together.",
+        "To slide the box, you have to break these contacts or climb over them. Every contact point resists sliding, and that's where friction comes from.",
+        "If you press the box down harder, the peaks get squashed, more points touch, and friction gets bigger.",
+        "Experiments show that friction is roughly proportional to how hard the surfaces press together. That's the normal force, N.",
+        "The constant is called the coefficient of friction, μ. It has no units, and it depends only on the two materials in contact. For a tire on a dry road, μ is about 0.7 to 1; for ice on ice, it's only a few hundredths.",
+        "Question two: take the same brick, laid flat or stood on its end. The contact areas differ by several times. Which way takes more force to push?",
+        "The answer: it's the same.",
+        "Laid flat, the weight spreads over a large area. Each spot presses lightly, so the real contact points are sparse.",
+        "On its end, the area is smaller, but each spot presses harder, so the contact points are actually denser.",
+        "The two effects cancel, so the real contact area is about the same. Friction depends only on μ and N, not on the apparent contact area.",
+        "So why do F1 race cars use such wide tires? Look it up after class. Here's a hint: rubber is soft, and it doesn't fully follow this simple rule."
+       ]
+      },
+      {
+       "title": "③ Static vs. kinetic friction",
+       "lines": [
+        "Question three: a 10 kg box sits on the floor, and μs is 0.5. You push it horizontally with 20 N, but it doesn't move. What is the friction force on the box?",
+        "A lot of students calculate it like this: μs times N, 0.5 times 98 N, equals 49 N.",
+        "But that's wrong! The box isn't moving, so its acceleration is zero, and the net horizontal force must be zero. So friction exactly equals your push: 20 N.",
+        "Static friction is like a clever opponent: however hard you push, it pushes back just as hard.",
+        "But it has a limit: the maximum static friction is μs times N, which is 49 N.",
+        "Once your push goes past that limit, the box starts to slide.",
+        "Once it's sliding, friction becomes kinetic friction, equal to μk times N, and it stays about the same. Here μk is 0.3, so kinetic friction is about 29 N.",
+        "Usually μk is smaller than μs. That's why a box is hardest to push at the start, and gets a little easier once it's moving.",
+        "So lock in these two formulas. Static friction is less than or equal to. Its actual value comes from Newton's second law, and μs N is only its maximum.",
+        "Kinetic friction is equal to μk N. Writing static friction as μs N is one of the most common traps on the AP exam."
+       ]
+      },
+      {
+       "title": "④ Incline: which box slides first?",
+       "lines": [
+        "Question four: a heavy box and a light box sit on a board, made of exactly the same material. As you slowly tilt the board up, which one slides off first?",
+        "Intuitively, the heavy box has a bigger downhill pull, so it seems more likely to slide. But it also gets more friction. Let's work it out.",
+        "First, split gravity, mg, into two parts: mg sin θ down the slope, and mg cos θ perpendicular to it.",
+        "Nothing moves perpendicular to the slope, so the normal force N equals mg cos θ.",
+        "Along the slope, the box stays at rest, so static friction exactly equals mg sin θ.",
+        "As the angle grows, the downhill part, mg sin θ, keeps getting bigger. But the maximum static friction, μs mg cos θ, keeps shrinking, because the normal force gets smaller.",
+        "At the moment they're equal, the box is right on the edge of slipping. This angle is called the critical angle.",
+        "Set up the equation: mg sin θc equals μs mg cos θc. The mg cancels on both sides, leaving tan θc equals μs.",
+        "The mass cancels! The critical angle depends only on μs, not on mass. So the light box and the heavy box start sliding at the same angle, at the same moment.",
+        "This is also the easiest way to measure μs. Slowly raise the incline, note the angle where the object just starts to slide, and take its tangent. For example, if μs is 0.5, the critical angle is about 26.6 degrees."
+       ]
+      },
+      {
+       "title": "⑤ Calculus: the best angle to pull",
+       "lines": [
+        "Question five: you pull a box with a rope so it slides across the floor at constant speed. Is pulling horizontally easiest, or is it better to pull upward at an angle? And if so, which angle is best?",
+        "Let the pull F make an angle θ with the horizontal, and let the coefficient of kinetic friction be μ. First, draw the free-body diagram.",
+        "Vertically, N plus F sin θ equals mg, so N equals mg minus F sin θ. Pulling upward lifts the box a little, so it presses less on the floor, and friction drops too.",
+        "Horizontally, at constant speed, F cos θ equals the friction, μN.",
+        "Combine the two equations and solve: F equals μ mg, divided by cos θ plus μ sin θ.",
+        "If the angle is too small, you get no lifting effect. If it's too large, the forward component is too small. So there must be a best angle in between.",
+        "To make F as small as possible, we make the denominator as large as possible. This is where calculus comes in: take the derivative with respect to θ, and set it equal to zero.",
+        "That gives tan θ* equals μ.",
+        "If μ is 0.5, the best angle is about 26.6 degrees. The pull you need is about 10 percent less than pulling horizontally.",
+        "Flip it around: push down at an angle, like pushing a lawn mower, and the normal force gets bigger. That takes more force.",
+        "One more thing: this best pulling angle and the critical angle of the incline both equal arctan μ. Is that a coincidence? We'll leave it as a thought question."
+       ]
+      },
+      {
+       "title": "⑥ Braking distance and ABS",
+       "lines": [
+        "Question six: you're driving, and you speed up from 30 to 60 miles per hour, doubling your speed. In an emergency stop, how many times longer is the braking distance?",
+        "We'll use the work-energy theorem, which you'll learn in the next unit. As the car brakes, friction from the road does negative work, turning all its kinetic energy into heat.",
+        "In other words, μk m g times d equals one half m v squared. Once again the mass cancels, giving d equals v squared over 2 μk g.",
+        "Braking distance is proportional to speed squared! Double the speed, and the braking distance isn't twice as long. It's four times as long.",
+        "Now plug in numbers. On a dry road, μk is about 0.7. At 30 miles per hour, about 13 meters per second, the car stops in about 13 meters. At 60 miles per hour, it takes about 52 meters, roughly eleven car lengths.",
+        "And that doesn't even include the driver's reaction time. That's why you need a bigger following distance on the freeway.",
+        "So why do all modern cars have ABS, anti-lock brakes?",
+        "When a wheel rolls normally, each point on the tire traces out a curve like this. Watch closely: every time this point touches the ground, its velocity is exactly zero.",
+        "In other words, at that instant the contact point is at rest relative to the ground. So a rolling tire gets static friction.",
+        "If you slam on the brakes too hard, the wheel locks and stops turning. The tire drags and slides along the road, so the friction becomes kinetic.",
+        "Since μs is bigger than μk, a rolling tire can deliver more braking force. ABS releases and reapplies the brakes many times per second, keeping the wheels right on the edge of slipping. You stop in a shorter distance, and you can still steer."
+       ]
+      },
+      {
+       "title": "★ Challenge: the magic of a rope",
+       "lines": [
+        "Finally, a challenge problem. At the dock, a sailor can hold back a ship weighing hundreds of tons with just one hand. The trick is to wrap the rope around a mooring post a few times. Why do a few turns multiply the force so much?",
+        "Look down at the post from above. The tension on the ship's end is huge, and on the hand's end it's small. The rope wants to slip toward the ship, and friction from the post holds it back.",
+        "Take a tiny piece of the rope that spans an angle dθ. The tensions at its two ends are T, and T plus dT.",
+        "Because the rope is curved, the two tensions add up to press the rope into the post. So the post pushes back with a normal force dN, roughly T times dθ.",
+        "This little piece can get at most μ dN of static friction. That's exactly what balances the tension difference, dT.",
+        "So dN is about T dθ, and dT equals μ T dθ.",
+        "This is a separable differential equation. It's the same pattern as the motion with air resistance you just learned. Move T to the left side, and integrate both sides.",
+        "We get: the natural log of T ship over T hand equals μ times θ. In other words, T ship equals T hand times e to the μ θ.",
+        "Tension grows exponentially with the wrap angle! Say μ is 0.3. One turn multiplies the force by about 6.6; two turns, about 43; three turns, about 286; and five turns, more than twelve thousand.",
+        "So the sailor needs only 100 N, about the effort of lifting a 10 kg bag of rice. With five turns, that holds back more than a million newtons. That's the power of exponential growth."
+       ]
+      },
+      {
+       "title": "Summary",
+       "lines": [
+        "Finally, let's run through today's ideas.",
+        "Friction opposes relative sliding. Static friction is less than or equal to, and you find it with Newton's second law. Kinetic friction equals μk N. And friction doesn't depend on contact area.",
+        "The tangent of the critical angle equals μs. The tangent of the best pulling angle equals μ. Braking distance goes as speed squared. And for a rope wrapped around a post, tension grows exponentially.",
+        "Here are two questions to think about. First: squeeze a book between your hands so it stays still. If you press harder, does the friction on the book get bigger?",
+        "Second: why do the best pulling angle and the incline's critical angle both equal arctan μ? Hint: combine the normal force and friction into one total contact force, and look at its direction.",
+        "Figure out these two, and you've truly mastered friction. See you next time!"
+       ]
+      }
+     ]
     }
    }
   },
@@ -595,6 +770,118 @@ window.EPISODE_DATA = {
        ]
       }
      ]
+    },
+    "en": {
+     "video": "videos/en/03-dot-product-and-work.mp4",
+     "poster": "posters/en/03-dot-product-and-work.jpg",
+     "duration": 358.4,
+     "chapters": [
+      {
+       "t": 0.0,
+       "title": "Intro"
+      },
+      {
+       "t": 41.73,
+       "title": "① Dot Product"
+      },
+      {
+       "t": 119.63,
+       "title": "② Work"
+      },
+      {
+       "t": 154.33,
+       "title": "③ Example: Work by Each Force"
+      },
+      {
+       "t": 243.47,
+       "title": "④ Variable Forces: Integrals"
+      },
+      {
+       "t": 321.57,
+       "title": "⑤ Back to Our Question"
+      }
+     ],
+     "transcript": [
+      {
+       "title": "Intro",
+       "lines": [
+        "In this episode: the dot product and work.",
+        "Someone pulls a suitcase at an angle. The pull points up and to the right, but the suitcase moves straight right.",
+        "Break F into components. The horizontal part, F cosθ, is along the motion: it does the work;",
+        "the vertical part, F sinθ, is perpendicular to it: no work.",
+        "Picking out the part along the motion is what the dot product does.",
+        "First, a question: is the work done by friction always negative?",
+        "We'll reveal the answer at the end."
+       ]
+      },
+      {
+       "title": "① Dot Product",
+       "lines": [
+        "Vector A dot vector B equals the magnitude of A, times the magnitude of B, times cos θ.",
+        "Geometrically, drop a perpendicular from A's tip onto B to get A's projection along B. The dot product is the projection's length times the length of B.",
+        "Now rotate A. Below 90 degrees, the projection points forward, and the dot product is positive;",
+        "at exactly 90 degrees, the projection shrinks to a point, and the dot product is zero;",
+        "past 90 degrees, the projection points backward, and the dot product turns negative.",
+        "In practice, use components: write each vector in î and ĵ, and multiply out into four terms.",
+        "î·î and ĵ·ĵ both equal 1. î·ĵ is 0, because they're perpendicular. So the cross terms drop out.",
+        "So A·B = AxBx + AyBy.",
+        "For example, (3î + 4ĵ)·(2î + 6ĵ) is 3 times 2 plus 4 times 6, or 30.",
+        "It's positive, so the angle is less than 90 degrees."
+       ]
+      },
+      {
+       "title": "② Work",
+       "lines": [
+        "Work is W equals F dot d, the force dotted with the displacement: F d cosθ.",
+        "The unit is the joule, which is one newton·meter.",
+        "If the force is along the motion, θ is 0, and the work is positive;",
+        "if it's perpendicular, like the normal force or gravity, cos90° is 0: no work;",
+        "and if it's opposite the motion, like kinetic friction, the work is negative.",
+        "So the sign of the work depends only on the angle between force and displacement."
+       ]
+      },
+      {
+       "title": "③ Example: Work by Each Force",
+       "lines": [
+        "Example: a 10 kg box starts from rest. A 50 N pull at 37 degrees above horizontal moves it 5 meters; μk is 0.2. Find the work done by each force, and the final speed.",
+        "First, the free-body diagram: pull F, gravity mg, normal force N, and kinetic friction f. The displacement d points right.",
+        "Work done by the pull: F d cos37°, which is 200 J.",
+        "Careful: N is not mg. The pull lifts up by 30 newtons, so N is 98 minus 30: 68 newtons.",
+        "Friction is μk N, or 13.6 N. It opposes the displacement, so its work is −68 J.",
+        "Gravity and the normal force are perpendicular to d, so they do no work.",
+        "As a bar chart: plus 200, minus 68, and two zeros.",
+        "Add them up: the net work is 132 J.",
+        "By the work–energy theorem, the net work equals the change in kinetic energy. Starting from rest, the box ends with 132 J of kinetic energy.",
+        "½mv² equals 132, so v is about 5.1 m/s."
+       ]
+      },
+      {
+       "title": "④ Variable Forces: Integrals",
+       "lines": [
+        "If the force varies with position, chop the displacement into small pieces. The work on each piece is F dx.",
+        "Add them all up and you get an integral: the area under the F–x graph.",
+        "Example 2: a 2.0 kg block slides at 6.0 m/s onto an increasingly rough floor. Here μ = 0.10 + 0.050x. How far does it slide?",
+        "Friction is μ m g: 1.96 plus 0.98 x, a sloped line.",
+        "The initial kinetic energy, one half m v naught squared, is 36 J.",
+        "As the block slides, friction's negative work equals the area under the graph. More area, less kinetic energy.",
+        "When the area reaches 36 J, the kinetic energy is gone and the block stops.",
+        "The equation: 36 joules equals the integral of f from 0 to d, or 1.96 d plus 0.49 d squared.",
+        "The positive root of the quadratic gives d of about 6.8 m."
+       ]
+      },
+      {
+       "title": "⑤ Back to Our Question",
+       "lines": [
+        "Back to our question: is the work done by friction always negative?",
+        "Not necessarily!",
+        "When a truck speeds up, the box in its bed speeds up too. What pushes the box forward is static friction from the truck bed.",
+        "Force and displacement both point forward, so static friction does positive work.",
+        "Remember: friction opposes relative sliding, not motion itself.",
+        "Finally, remember these four formulas.",
+        "See you next time!"
+       ]
+      }
+     ]
     }
    }
   },
@@ -708,6 +995,108 @@ window.EPISODE_DATA = {
         "推住静止：F 在 mg 乘以括号 sinθ 减 μs cosθ，到 mg 乘以括号 sinθ 加 μs cosθ 之间。",
         "记住一句话：动摩擦的方向和相对运动相反；静摩擦的方向，由运动趋势决定。",
         "我们下一集见！"
+       ]
+      }
+     ]
+    },
+    "en": {
+     "video": "videos/en/04-friction-on-an-incline.mp4",
+     "poster": "posters/en/04-friction-on-an-incline.jpg",
+     "duration": 358.5,
+     "chapters": [
+      {
+       "t": 0.0,
+       "title": "① Free-Body Diagram in Five Steps"
+      },
+      {
+       "t": 54.37,
+       "title": "② Example 1: Sliding Down"
+      },
+      {
+       "t": 117.93,
+       "title": "③ Example 2: Up the Incline and Back"
+      },
+      {
+       "t": 235.37,
+       "title": "④ Example 3: How Hard to Push to Hold It?"
+      },
+      {
+       "t": 322.23,
+       "title": "Summary"
+      }
+     ],
+     "transcript": [
+      {
+       "title": "① Free-Body Diagram in Five Steps",
+       "lines": [
+        "Three classic incline friction problems today, starting with the five steps for a free-body diagram.",
+        "Step one: pick the object, this block on the incline.",
+        "Step two: draw gravity, mg, straight down.",
+        "Step three: contact forces, with normal force N perpendicular to the incline and friction f parallel to it.",
+        "Which way f points depends on how the block moves, or tends to move, and that's today's key idea.",
+        "Step four: tilt the axes along the incline, and split gravity into mg sin θ and mg cos θ.",
+        "Step five: write Newton's second law along each axis.",
+        "Our data: mass 2.0 kilograms, angle 30 degrees, μs 0.30, and μk 0.20."
+       ]
+      },
+      {
+       "title": "② Example 1: Sliding Down",
+       "lines": [
+        "Example 1: find the acceleration of the block sliding down the incline.",
+        "The block slides down, so kinetic friction points up the incline, opposite the motion.",
+        "Add gravity and the normal force, then resolve gravity along the incline.",
+        "No acceleration perpendicular to the incline, so N equals mg cos θ, about 17.0 N.",
+        "Kinetic friction f equals μk N, about 3.39 N.",
+        "Along the incline, with downhill positive: mg sin θ minus μk mg cos θ equals m a.",
+        "Every term has an m, so they all cancel!",
+        "So the acceleration equals g times the quantity sin θ minus μk cos θ, about 3.20 m/s².",
+        "It doesn't depend on mass: light or heavy, they slide together."
+       ]
+      },
+      {
+       "title": "③ Example 2: Up the Incline and Back",
+       "lines": [
+        "Example 2, the key problem: the block is launched up the incline at 8.0 m/s. How far does it go, will it slide back, and how fast is it back at the start?",
+        "On the way up, kinetic friction points down the incline, along with gravity's downhill component.",
+        "Together they slow it down: a1 equals g times the quantity sin θ plus μk cos θ, about 6.60 m/s².",
+        "It goes s equals v0 squared over 2 a1, about 4.85 m, in about 1.21 s.",
+        "At the top, its velocity is zero, but will it stay there?",
+        "Compare: mg sin θ is 9.8 N, but maximum static friction, μs mg cos θ, is only about 5.09 N.",
+        "Friction can't hold it, so it slides back. Equivalently, tan θ, about 0.577, is greater than μs.",
+        "On the way down, the motion reverses, so kinetic friction flips to point up the incline.",
+        "That's Example 1's result: a2 is about 3.20 m/s², smaller than going up.",
+        "Back at the start, v equals root 2 a2 s, about 5.57 m/s, after about 1.74 s.",
+        "That's less than 8.0 m/s: friction turned some mechanical energy into heat.",
+        "Now the v–t graph, with up the incline positive.",
+        "The slopes are negative 6.60 going up and negative 3.20 going down. Both negative: the acceleration always points down the incline.",
+        "Friction flips at the turning point, so the way down is gentler, and it takes longer."
+       ]
+      },
+      {
+       "title": "④ Example 3: How Hard to Push to Hold It?",
+       "lines": [
+        "Example 3: what range of forces F, pushing up the incline, can hold the block at rest?",
+        "Perpendicular, nothing changes. Along the incline we have the push F, the downhill component mg sin θ, and static friction.",
+        "The downhill component is 9.8 N, and maximum static friction, μs mg cos θ, is about 5.09 N.",
+        "When F is small, even maximum static friction can't hold the block, so it slides down.",
+        "At 4.71 N, it just holds: it tends to slide down, so static friction points up, at its maximum.",
+        "As F grows, less static friction is needed, and at 9.8 N it's zero.",
+        "Push harder, and the block tends to slide up, so static friction flips to point down the incline.",
+        "At 14.9 N, the downward static friction reaches its maximum too.",
+        "Any more, and the block gets pushed up the incline.",
+        "So F must be between 4.71 N and 14.9 N.",
+        "By the way, pushing it up at constant speed means kinetic friction, pointing down. Then F equals mg times the quantity sin θ plus μk cos θ, about 13.2 N."
+       ]
+      },
+      {
+       "title": "Summary",
+       "lines": [
+        "Let's sum up.",
+        "Sliding down, a equals g times the quantity sin θ minus μk cos θ, and sliding up, the minus becomes a plus.",
+        "To see whether it slides back, compare tan θ with μs.",
+        "To hold it at rest, F runs from mg times the quantity sin θ minus μs cos θ, up to the same thing with a plus.",
+        "Remember: kinetic friction opposes the relative motion, and static friction opposes the tendency to move.",
+        "See you in the next episode!"
        ]
       }
      ]
@@ -825,6 +1214,106 @@ window.EPISODE_DATA = {
        ]
       }
      ]
+    },
+    "en": {
+     "video": "videos/en/05-stacked-blocks.mp4",
+     "poster": "posters/en/05-stacked-blocks.jpg",
+     "duration": 338.1,
+     "chapters": [
+      {
+       "t": 0.0,
+       "title": "Intro"
+      },
+      {
+       "t": 58.73,
+       "title": "① Do They Move Together?"
+      },
+      {
+       "t": 122.73,
+       "title": "② Maximum Pull"
+      },
+      {
+       "t": 188.23,
+       "title": "③ After Slipping"
+      },
+      {
+       "t": 269.17,
+       "title": "④ Variation: Pull A Instead"
+      }
+     ],
+     "transcript": [
+      {
+       "title": "Intro",
+       "lines": [
+        "This episode is a classic: stacked blocks.",
+        "Block B sits on a frictionless floor, with block A on top. A horizontal force F pulls only on B.",
+        "Nothing pulls on A directly, so why does it move along with B?",
+        "Separate A and B, and draw a free-body diagram for each one.",
+        "First A: vertically, gravity and the normal force balance.",
+        "Horizontally, A touches only B. The only thing that can speed it up is static friction from B on A.",
+        "By Newton's third law, the friction from A on B is equal in size and points backward.",
+        "B also feels gravity, the normal force from the floor, A pressing down, and the pull F.",
+        "These two friction forces are equal, opposite, and act on different objects: an action–reaction pair."
+       ]
+      },
+      {
+       "title": "① Do They Move Together?",
+       "lines": [
+        "Example 1: F equals 12 N. Do A and B move together, and how big is the friction?",
+        "We don't know the static friction yet, so first assume they move together.",
+        "As one system, this friction pair is internal and cancels out. The acceleration is 2.0 m/s².",
+        "Now look at A alone. Friction is the only horizontal force, so f equals m₁a, which is 4.0 N.",
+        "Is that enough? Maximum static friction is μs m₁g, 7.84 N. Note that the normal force here is only A's weight.",
+        "We need 4.0 N, and up to 7.84 N is available. The assumption holds: they move together.",
+        "Remember the recipe: assume they move together, find the static friction needed, then compare it with μs N."
+       ]
+      },
+      {
+       "title": "② Maximum Pull",
+       "lines": [
+        "Example 2: what's the largest F that still lets A and B move together?",
+        "The key is A: only friction speeds it up, and friction is at most μs m₁g.",
+        "So A's maximum acceleration is μs g, 3.92 m/s².",
+        "The whole system can't accelerate faster than that, so F max is about 23.5 N.",
+        "Let's graph the friction on A as F increases.",
+        "While they move together, f is one third of F: a straight line through the origin.",
+        "Example 1's 12 N gives 4.0 N.",
+        "At 23.5 N, f hits its limit of 7.84 N.",
+        "Beyond that, A slips backward relative to B. Friction drops to kinetic, 5.88 N, and stays there.",
+        "Look familiar? It's the same shape as the f–F graph for pushing a box in Episode 1."
+       ]
+      },
+      {
+       "title": "③ After Slipping",
+       "lines": [
+        "Example 3: F is raised to 30 N. What are the accelerations of A and B?",
+        "30 N is more than 23.5 N, so A slips. Friction becomes μk m₁g, 5.88 N.",
+        "A slides backward relative to B, so kinetic friction on A still points forward. a₁ equals μk g, 2.94 m/s².",
+        "For B, F points forward and friction points backward, so a₂ is about 6.03 m/s².",
+        "B speeds up faster, so A gradually falls behind.",
+        "Finally, it falls off the back of B.",
+        "Think about it: while A slips, does friction do positive or negative work on A?",
+        "At the start, A is at the front of B; just before it falls, it's at the back. Relative to B, A slides backward.",
+        "But relative to the ground, A keeps moving forward. Friction points forward, and so does the displacement.",
+        "So friction does positive work on A! It opposes relative sliding, not necessarily motion."
+       ]
+      },
+      {
+       "title": "④ Variation: Pull A Instead",
+       "lines": [
+        "A variation: what if we pull the top block, A, instead?",
+        "On the left, we pull B, so A is dragged along, and F max is about 23.5 N.",
+        "Pull A, and now B is the one dragged along. Only friction accelerates it, and that's still at most 7.84 N.",
+        "B is heavier, so its maximum acceleration is only 1.96 m/s². F max is about 11.8 N, just half.",
+        "Now slowly increase F: the pull-A setup slips first.",
+        "The pull-B setup doesn't slip until 23.5 N.",
+        "Three takeaways. One: the block being dragged along is accelerated only by friction, so it sets the maximum shared acceleration.",
+        "Two: assume they move together, then check whether f is at most μs N.",
+        "Three: once they slip, use μk N, and write separate equations for each block.",
+        "See you in the next episode!"
+       ]
+      }
+     ]
     }
    }
   },
@@ -935,6 +1424,103 @@ window.EPISODE_DATA = {
        ]
       }
      ]
+    },
+    "en": {
+     "video": "videos/en/06-connected-bodies-and-pulleys.mp4",
+     "poster": "posters/en/06-connected-bodies-and-pulleys.jpg",
+     "duration": 320.8,
+     "chapters": [
+      {
+       "t": 0.0,
+       "title": "Intro"
+      },
+      {
+       "t": 42.3,
+       "title": "① Step 1: Will It Move?"
+      },
+      {
+       "t": 90.13,
+       "title": "② Find the Acceleration a and Tension T"
+      },
+      {
+       "t": 196.73,
+       "title": "③ Example 2: Change B to 1.0 kg"
+      },
+      {
+       "t": 285.47,
+       "title": "Summary: Four Steps for Connected Bodies"
+      }
+     ],
+     "transcript": [
+      {
+       "title": "Intro",
+       "lines": [
+        "This episode: a classic AP problem, two blocks connected over a pulley.",
+        "Block A sits on a table. A light rope runs over a frictionless pulley, and block B hangs from it.",
+        "A is 3.0 kg, with μs of 0.5 and μk of 0.3 on the table. B is 2.0 kg.",
+        "Two key facts first. One: a light rope has the same tension T everywhere. The pulley only changes the rope's direction.",
+        "Two: the rope doesn't stretch. When A moves right by d, B drops by d, so their accelerations are equal in size."
+       ]
+      },
+      {
+       "title": "① Step 1: Will It Move?",
+       "lines": [
+        "Step one: before writing equations, ask whether A will even move when released from rest.",
+        "Pulling A forward is the weight of B, m₂g, which is 19.6 N.",
+        "Holding A back is static friction, which can reach at most μs m₁g, or 14.7 N.",
+        "Like a tug-of-war, static friction maxes out at 14.7 N.",
+        "19.6 beats 14.7, so friction can't hold it, and A slides.",
+        "Once sliding, friction becomes kinetic, μk m₁g. Plug in μk without checking, and you may get an acceleration that doesn't exist."
+       ]
+      },
+      {
+       "title": "② Find the Acceleration a and Tension T",
+       "lines": [
+        "It moves, so let's find the acceleration a and the rope tension T.",
+        "First, a handy trick: straighten out the rope.",
+        "Imagine swinging B up around the pulley, in line with A.",
+        "The weight of block B pointed down the rope. Now it points forward along the rope.",
+        "Along the rope, only two external forces act. Forward: m₂g, 19.6 N.",
+        "Backward: kinetic friction, μk m₁g, or 8.82 N.",
+        "The two tensions pull A forward and B backward. They're internal forces, so they cancel.",
+        "Treat A and B as one system of 5.0 kg.",
+        "So a equals 19.6 minus 8.82, over 5, about 2.16 m/s².",
+        "To find T, swing B back and analyze it alone. This is called isolating an object.",
+        "For B: m₂g down, minus T up, equals m₂a.",
+        "So T equals 2 times, 9.8 minus 2.16, about 15.3 N.",
+        "Check with A: T minus 8.82 should equal 3 times 2.16.",
+        "T comes out to 15.3 N again. A perfect match!",
+        "Notice that T is less than m₂g, which is 19.6 N. Why?",
+        "If T equaled m₂g, the net force on B would be zero, so B couldn't accelerate. B speeds up downward, so the rope's pull must be less than its weight."
+       ]
+      },
+      {
+       "title": "③ Example 2: Change B to 1.0 kg",
+       "lines": [
+        "Example 2: change B to 1.0 kg. Does block A still move? If not, what's the friction?",
+        "Check first: m₂g is only 9.8 N, below the 14.7 N maximum static friction. A stays put.",
+        "The system is at rest. B balances, so T equals m₂g, 9.8 N. A balances too, so static friction equals T, also 9.8 N.",
+        "Careful: not 14.7 N! As in Episode 1, static friction is at most μs N. So 14.7 is only the upper limit.",
+        "So how heavy must B be to move A? We need m₂g greater than μs m₁g, so m₂ above 1.5 kg.",
+        "Let m₂ grow slowly from 0.5 kg, and watch the friction.",
+        "At first A stays put, so friction equals m₂g, rising along this line.",
+        "At 1.5 kg, static friction hits its max, 14.7 N.",
+        "A bit more, and A slides. Friction drops to the kinetic value, 8.82 N, and stays there.",
+        "It's the same graph as pushing the box in Episode 1."
+       ]
+      },
+      {
+       "title": "Summary: Four Steps for Connected Bodies",
+       "lines": [
+        "To wrap up: four steps for connected bodies.",
+        "One: will it move? Compare the driving force with the maximum static friction, μs N.",
+        "Two: find a with the whole system. Straighten the rope and keep only external forces along it.",
+        "Three: find T by isolating one object.",
+        "Four: check your answer. For example, T should be less than m₂g, and the other block should agree.",
+        "Master these four steps, and most connected-body problems become easy."
+       ]
+      }
+     ]
     }
    }
   },
@@ -1031,6 +1617,91 @@ window.EPISODE_DATA = {
         "变力做功是力对位移的积分，也就是 F–x 图 下的面积；",
         "理想弹簧的弹性势能是二分之一 k x 平方；非线性弹簧，就回到积分。",
         "下一集：能量守恒与摩擦。我们下集见！"
+       ]
+      }
+     ]
+    },
+    "en": {
+     "video": "videos/en/07-springs-and-elastic-energy.mp4",
+     "poster": "posters/en/07-springs-and-elastic-energy.jpg",
+     "duration": 311.9,
+     "chapters": [
+      {
+       "t": 0.0,
+       "title": "① Hooke's Law"
+      },
+      {
+       "t": 74.57,
+       "title": "② Spring Work & Elastic Potential Energy"
+      },
+      {
+       "t": 147.83,
+       "title": "③ Example 1: Spring Launcher"
+      },
+      {
+       "t": 204.53,
+       "title": "④ Example 2: A Nonlinear Spring"
+      },
+      {
+       "t": 281.33,
+       "title": "Summary"
+      }
+     ],
+     "transcript": [
+      {
+       "title": "① Hooke's Law",
+       "lines": [
+        "This episode is all about springs: Hooke's law, spring work, and elastic potential energy.",
+        "A spring is fixed to a wall and attached to a block. At natural length, the block is at equilibrium, x equals 0.",
+        "Pull right: the spring stretches, and its force pulls the block back.",
+        "Push left: the spring compresses, and its force pushes the block back.",
+        "This is Hooke's law: Fs = −kx. The minus sign means the force always points back toward equilibrium. It's a restoring force.",
+        "On an F–x graph, it's a line through the origin with slope negative k. k is the spring constant, in N/m. Bigger k means a stiffer spring.",
+        "How do we measure k? Hang the spring vertically with a 0.50 kg mass. It stretches 0.098 m.",
+        "At rest, the spring force balances gravity: k x equals mg, which is 4.9 N. So k equals 4.9 over 0.098, or 50 N/m."
+       ]
+      },
+      {
+       "title": "② Spring Work & Elastic Potential Energy",
+       "lines": [
+        "Question 1: you slowly stretch a spring by x from its natural length. How much work do you do? Is it k x times x?",
+        "Pulling slowly, your force always equals k x, growing from zero. The force changes, so you can't just multiply force by displacement.",
+        "k x times x is this whole rectangle, as if you pulled with the maximum force from the start. That's too much.",
+        "The real work is the area under the graph: a triangle, one half times x times k x. That's one half k x squared, exactly half the rectangle.",
+        "Or with an integral: integrating k x from 0 to x gives one half k x squared.",
+        "The spring force points the other way, so it does negative work on the block: negative one half k x squared. Your work is stored in the spring as elastic potential energy, Us = ½kx².",
+        "Notice: stretch it twice as far, and the force doubles, but the area quadruples. The spring stores four times the energy."
+       ]
+      },
+      {
+       "title": "③ Example 1: Spring Launcher",
+       "lines": [
+        "Example 1: a spring with k equals 200 N/m is compressed 0.10 m. It launches a 0.50 kg block with no friction. How fast is the block moving as it leaves the spring?",
+        "Compressed, the spring stores one half times 200 times 0.1 squared, or 1.0 J.",
+        "After release, the spring speeds the block up. Whatever U loses, K gains, until the full joule is kinetic energy.",
+        "One half m v squared equals 1.0 J, so v equals the square root of 2 times 1 over 0.5, which is 2.0 m/s.",
+        "The block leaves the spring at natural length, x equals 0. There the spring force is zero and the speed is maximum. Then it slides on at constant speed."
+       ]
+      },
+      {
+       "title": "④ Example 2: A Nonlinear Spring",
+       "lines": [
+        "Example 2: a nonlinear spring, F = −(kx + βx³), with k equals 100 and β equals 1000. It's compressed 0.20 m and launches a 0.30 kg block. Find its exit speed.",
+        "On the F–x graph, the βx³ term makes the curve steeper and steeper, stiffer than the plain k x line.",
+        "Now one half k x squared doesn't work. Go back to the definition: work is the integral of force over displacement, the area under the curve.",
+        "Integrating gives one half k x squared, plus one quarter β x to the fourth.",
+        "Plug in 0.20 m: the line gives 2.0 J, the curve adds 0.4 J, for 2.4 J total.",
+        "It all becomes kinetic energy: one half m v squared equals 2.4 J, so v is the square root of 16, 4.0 m/s.",
+        "Remember: for a non-ideal spring, don't use one half k x squared. Go back to the integral of force over displacement."
+       ]
+      },
+      {
+       "title": "Summary",
+       "lines": [
+        "To sum up: the spring force, Fs = −kx, always points back toward equilibrium.",
+        "The work done by a variable force is the integral of force over displacement: the area under the F–x graph.",
+        "An ideal spring stores one half k x squared. For a nonlinear spring, go back to the integral.",
+        "Next time: energy conservation with friction. See you then!"
        ]
       }
      ]
@@ -1134,6 +1805,95 @@ window.EPISODE_DATA = {
         "非保守力做的功，等于机械能的变化；摩擦生的热，等于 μk N 乘以滑过的路程。",
         "做题三步：选初末状态，列能量账，解方程。",
         "记住：能量不会消失，摩擦只是把机械能变成了热。我们下一集见！"
+       ]
+      }
+     ]
+    },
+    "en": {
+     "video": "videos/en/08-energy-conservation-with-friction.mp4",
+     "poster": "posters/en/08-energy-conservation-with-friction.jpg",
+     "duration": 331.4,
+     "chapters": [
+      {
+       "t": 0.0,
+       "title": "① Energy Bookkeeping"
+      },
+      {
+       "t": 48.67,
+       "title": "② Example 1: Slide Down, Then Stop"
+      },
+      {
+       "t": 113.2,
+       "title": "③ Example 2: Incline + Friction + Spring"
+      },
+      {
+       "t": 242.2,
+       "title": "④ Average Force from Stopping Distance"
+      },
+      {
+       "t": 297.43,
+       "title": "Summary"
+      }
+     ],
+     "transcript": [
+      {
+       "title": "① Energy Bookkeeping",
+       "lines": [
+        "In this episode: when there's friction, where does the mechanical energy go?",
+        "Mechanical energy is kinetic plus gravitational and elastic potential energy.",
+        "A block slides back and forth on a frictionless U-shaped track, with its energy bar chart on the right.",
+        "When only conservative forces do work, K and U trade back and forth, and mechanical energy is conserved.",
+        "Now make part of the bottom rough.",
+        "Each crossing, mechanical energy shrinks and thermal energy grows, until the block stops.",
+        "The work done by friction equals the change in mechanical energy: negative f d.",
+        "Mechanical energy drops, but add the thermal energy, and the total stays the same."
+       ]
+      },
+      {
+       "title": "② Example 1: Slide Down, Then Stop",
+       "lines": [
+        "Example 1: a block slides from rest down a frictionless ramp 1.8 meters high. Then it crosses a floor with μk equal to 0.30. How far does it slide?",
+        "First, the energy flow. The frictionless ramp turns all the potential energy into kinetic energy. On the floor, friction turns it into heat until the block stops.",
+        "From A to B: mgh = ½mv², so at the bottom, v = √(2gh), about 5.9 m/s.",
+        "From A to C: the block starts and ends at rest, so all the potential energy becomes heat: mgh = μk mg d.",
+        "The m and g cancel: d = h/μk, or 6.0 m.",
+        "The answer doesn't depend on mass, or, for a frictionless ramp, on the ramp's shape."
+       ]
+      },
+      {
+       "title": "③ Example 2: Incline + Friction + Spring",
+       "lines": [
+        "Example 2 is the key problem. A 2.0 kg block starts from rest on a 30-degree incline, 2.0 meters from the free end of a spring. μk is 0.20, and k is 500 N/m. Find the maximum compression.",
+        "Initially, the block is at rest. At the end, the spring is fully compressed and the block is momentarily at rest. If the maximum compression is x, the block travels d plus x.",
+        "On the way down, gravitational potential energy becomes kinetic energy, then elastic energy at the spring. Friction makes heat the whole way.",
+        "At the lowest point, K is zero. So the lost gravitational potential energy equals elastic energy plus heat.",
+        "As an equation: mg(d + x) sin θ equals ½kx², plus μk mg cos θ (d + x).",
+        "Combine the d plus x terms. The coefficient, m g times sin θ minus μk cos θ, is about 6.41 N, the net downhill force from Episode 4.",
+        "Plug in and rearrange: 250 x squared minus 6.41 x minus 12.8 equals zero. Take the positive root: x is about 0.24 m.",
+        "Check: gravitational potential energy drops about 21.9 J. That's 14.3 J of elastic energy plus 7.6 J of heat.",
+        "Follow-up: when the spring pushes it back, does the block return to the start?",
+        "No. Friction keeps draining mechanical energy. On the way up, elastic potential energy becomes gravitational potential energy and heat. Solving gives s of about 1.09 m.",
+        "That's only 0.85 m above the spring's free end, far short of the start."
+       ]
+      },
+      {
+       "title": "④ Average Force from Stopping Distance",
+       "lines": [
+        "One more: a 0.20 kg ball drops 1.25 meters into sand and sinks 5.0 centimeters before stopping. What's the average force from the sand?",
+        "It falls freely, then the sand's force F stops it in a very short distance.",
+        "Take the whole trip: the kinetic energy is zero at both ends. Gravity does work m g times h plus d; don't forget the 5 centimeters in the sand. The sand does work negative F d.",
+        "So F equals m g times h plus d, divided by d. That's about 51 N, 26 times the ball's weight.",
+        "That's why long jumpers land in sand, and why you bend your knees when you land. The longer the stopping distance d, the smaller the average force."
+       ]
+      },
+      {
+       "title": "Summary",
+       "lines": [
+        "To sum up.",
+        "Mechanical energy is kinetic energy plus gravitational and elastic potential energy.",
+        "The work done by nonconservative forces equals the change in mechanical energy. The heat from friction is μk N times the distance slid.",
+        "Three steps: pick the initial and final states, write the energy ledger, and solve.",
+        "Remember: energy never disappears. Friction just turns mechanical energy into heat. See you next episode!"
        ]
       }
      ]
@@ -1245,6 +2005,103 @@ window.EPISODE_DATA = {
         "保守力做功与路径无关，等于势能减少量；力是势能曲线的负斜率。",
         "K 等于 E 减 U，E 等于 U 处是转折点；斜率为零处是平衡点：谷稳定，峰不稳定。",
         "我们下期再见！"
+       ]
+      }
+     ]
+    },
+    "en": {
+     "video": "videos/en/09-conservative-forces-and-potential-energy.mp4",
+     "poster": "posters/en/09-conservative-forces-and-potential-energy.jpg",
+     "duration": 342.3,
+     "chapters": [
+      {
+       "t": 0.0,
+       "title": "① Conservative vs. Nonconservative Forces"
+      },
+      {
+       "t": 71.6,
+       "title": "② Force = Negative Slope of U(x)"
+      },
+      {
+       "t": 133.43,
+       "title": "③ Energy Diagrams: Turning Points & Equilibrium"
+      },
+      {
+       "t": 205.17,
+       "title": "④ Example"
+      },
+      {
+       "t": 313.73,
+       "title": "Summary"
+      }
+     ],
+     "transcript": [
+      {
+       "title": "① Conservative vs. Nonconservative Forces",
+       "lines": [
+        "This episode: conservative forces and potential energy curves.",
+        "There are two paths from A to B: a straight ramp and a long, curvy path. Does gravity do the same work on both? What about friction?",
+        "The straight path first: gravity does work mgh, and friction does negative work.",
+        "On the long path, gravity does positive work going down and negative work going up, netting mgh again.",
+        "But friction does negative work the whole way: the longer the path, the more negative work.",
+        "Gravity's work depends only on the height difference, not on the path.",
+        "A force whose work is path-independent is called conservative. Equivalently, its work around any closed path is zero.",
+        "For a conservative force, we can define a potential energy U: its work equals the decrease in U.",
+        "Gravity, spring forces, universal gravitation, and electrostatic forces are conservative. Friction and air resistance are not."
+       ]
+      },
+      {
+       "title": "② Force = Negative Slope of U(x)",
+       "lines": [
+        "In one dimension, the force is the negative slope of the potential energy curve: F = −dU/dx.",
+        "Move the ball slowly and watch the tangent's slope.",
+        "Here the slope is negative, so the force is positive, pointing toward +x.",
+        "At the valley bottom, the slope and the force are both zero.",
+        "Going uphill, the slope is positive, so the force is negative, toward −x.",
+        "At the peak, the slope is zero again. Past the peak, the force points toward +x again.",
+        "The force always points toward lower potential energy, like a ball rolling into a valley.",
+        "Let's check two examples. For gravity, U = mgy; take the negative derivative and get F = −mg, pointing down.",
+        "For a spring, U = ½kx² gives F = −kx, pointing back toward equilibrium."
+       ]
+      },
+      {
+       "title": "③ Energy Diagrams: Turning Points & Equilibrium",
+       "lines": [
+        "On the graph, draw a horizontal line for the total mechanical energy E.",
+        "At any position, K = E − U: the vertical gap between the curve and this line.",
+        "K can't be negative, so the ball can't enter the gray regions where U is above E.",
+        "Where E meets U is a turning point: the speed is zero, and the ball turns around.",
+        "Release the ball. Rolling into the valley, K grows and it speeds up; at the turning point, it slows to zero and turns back. Blue is U, green is K, and together they always make E.",
+        "Where the slope is zero, the force is zero: these are equilibrium points.",
+        "The valley bottom is a stable equilibrium: nudge it, and it's pulled back and oscillates.",
+        "The peak is an unstable equilibrium: one small nudge, and it rolls away.",
+        "The flat region is a neutral equilibrium: the ball can rest anywhere.",
+        "To tell them apart, check U's second derivative: positive means a valley, stable; negative means a peak, unstable."
+       ]
+      },
+      {
+       "title": "④ Example",
+       "lines": [
+        "Example: a particle moves in the potential U(x) = 2x³ − 6x. Find the force at x equals 2 meters, and the equilibrium points and their stability. Then, released from rest at x equals 0, find its top speed and range of motion.",
+        "Sketch the curve: a peak at x equals negative 1, where U is 4 joules, and a valley at x equals 1, where U is negative 4.",
+        "Part (a): F equals negative d U d x, which is 6 minus 6 x squared.",
+        "At x equals 2, F is negative 18 N, pointing toward negative x.",
+        "Part (b): set F equal to zero, and get x equals plus or minus 1 meter.",
+        "The second derivative is 12 x. At x equals 1 it's positive: a valley, so stable. At x equals negative 1 it's negative: a peak, so unstable.",
+        "Part (c): released from rest at x equals 0, E equals U(0), which is zero. So the E line is just the x-axis.",
+        "Where the curve is above the axis is forbidden. Here F is positive 6 N, so the particle slides right, toward the valley.",
+        "The top speed is at the valley bottom: K equals E minus U, zero minus negative 4, or 4 J. So v is 4.0 m/s.",
+        "The turning points are where U equals zero: x equals 0 and root 3, about 1.73 m.",
+        "So it moves back and forth between 0 and 1.73 meters, fastest at the valley bottom."
+       ]
+      },
+      {
+       "title": "Summary",
+       "lines": [
+        "To sum up.",
+        "A conservative force's work is path-independent and equals the decrease in potential energy. The force is the negative slope of the potential energy curve.",
+        "K equals E minus U, and turning points are where E equals U. Equilibrium points are where the slope is zero: valleys are stable, peaks are unstable.",
+        "See you next time!"
        ]
       }
      ]
@@ -1532,6 +2389,86 @@ window.EPISODE_DATA = {
        ]
       }
      ]
+    },
+    "en": {
+     "video": "videos/en/11-kinematics-with-calculus.mp4",
+     "poster": "posters/en/11-kinematics-with-calculus.jpg",
+     "duration": 315.6,
+     "chapters": [
+      {
+       "t": 0.0,
+       "title": "① x, v, a and calculus"
+      },
+      {
+       "t": 62.73,
+       "title": "② Example 1: given x(t)"
+      },
+      {
+       "t": 209.5,
+       "title": "③ Example 2: given a(t), integrate"
+      },
+      {
+       "t": 288.6,
+       "title": "Summary"
+      }
+     ],
+     "transcript": [
+      {
+       "title": "① x, v, a and calculus",
+       "lines": [
+        "This episode is about how derivatives and integrals link position, velocity, and acceleration.",
+        "A particle moves along a number line, and below it we draw its x–t graph in sync.",
+        "At any instant, the slope of the x–t graph is the velocity: v = dx/dt.",
+        "Record the slope at every instant, and you get the v–t graph. The slope goes positive, zero, negative: the particle moves right, stops, then moves left.",
+        "The slope of the v–t graph is the acceleration, a = dv/dt, here a constant −2 m/s².",
+        "So differentiate x to get v, and v to get a: derivatives mean slopes.",
+        "Going back, integrate a to get v, and v to get x: integrals mean areas. Each time you integrate, an initial condition pins down the constant."
+       ]
+      },
+      {
+       "title": "② Example 1: given x(t)",
+       "lines": [
+        "Example 1: A particle on the x-axis has x = t³ − 6t² + 9t, from 0 to 4 seconds. There are five parts.",
+        "Part (a): differentiate x to get v = 3t² − 12t + 9, which factors as 3(t − 1)(t − 3).",
+        "Differentiate again: a = 6t − 12.",
+        "The three graphs are stacked on one shared time axis. Wherever the cursor goes, the particle moves to x(t).",
+        "Part (b): at rest means v equals zero: t equals 1 and 3 seconds.",
+        "At those instants, the x–t graph has a horizontal tangent: the particle stops and turns around.",
+        "Part (c): v less than zero means moving left, from 1 to 3 seconds. Over that interval, the x–t graph is going down.",
+        "Part (d): let's run the particle again. Displacement depends only on the start and end: x(4) − x(0), which is 4 meters.",
+        "For distance, split at each turnaround: 4 meters out, 4 back, 4 out again, 12 meters total.",
+        "Part (e): when is it speeding up or slowing down? From 1 to 2 seconds, the acceleration is negative. Is it slowing down?",
+        "The rule: if v and a have the same sign, it speeds up, and if opposite, it slows down.",
+        "v changes sign at 1 and 3 seconds, and a at 2 seconds, making four intervals.",
+        "From 0 to 1, v is positive, a negative: slowing down. From 1 to 2, both are negative: speeding up.",
+        "From 2 to 3, v is negative, a positive: slowing down. From 3 to 4, both are positive: speeding up.",
+        "Watch the particle: when the arrows point the same way, the velocity arrow grows, and when opposite, it shrinks.",
+        "So from 1 to 2 seconds, a is negative, yet the particle gets faster. Negative acceleration does not mean slowing down!"
+       ]
+      },
+      {
+       "title": "③ Example 2: given a(t), integrate",
+       "lines": [
+        "Example 2: a = 6t, with initial velocity −3 m/s and initial position 2 m. Find v(t) and x(t), and their values at 2 seconds.",
+        "This time we integrate: v is the integral of a dt, which is 3t² + C.",
+        "What is C? Integration alone can't tell you: each C gives the same curve, shifted up or down.",
+        "The initial condition picks one: v(0) = −3, so C = −3, and v = 3t² − 3.",
+        "Integrate again: x = t³ − 3t + C′. Then x(0) = 2 gives C′ = 2.",
+        "At t equals 2 seconds, v is 9 meters per second, and x is 4 meters.",
+        "Check with area: from 0 to 2 seconds, the area under the a–t graph is 12. That's exactly the change in velocity, from negative 3 to 9.",
+        "Remember: an indefinite integral needs a constant, set by initial conditions. Drop it, and your answer is wrong."
+       ]
+      },
+      {
+       "title": "Summary",
+       "lines": [
+        "Let's sum up.",
+        "Derivatives mean slopes: v is dx/dt, and a is dv/dt. Integrals mean areas, plus a constant from initial conditions.",
+        "Same signs for v and a mean speeding up, opposite signs mean slowing down. For distance, split at each turnaround and add.",
+        "See you next time!"
+       ]
+      }
+     ]
     }
    }
   },
@@ -1634,6 +2571,97 @@ window.EPISODE_DATA = {
         "总结：斜率由 x 到 v 再到 a；面积由 a 得到 Δv，由 v 得到 Δx。",
         "v 过零变号的时刻，位移达到极值；路程是各段面积绝对值之和。",
         "我们下一集见！"
+       ]
+      }
+     ]
+    },
+    "en": {
+     "video": "videos/en/12-motion-graphs.mp4",
+     "poster": "posters/en/12-motion-graphs.jpg",
+     "duration": 293.3,
+     "chapters": [
+      {
+       "t": 0.0,
+       "title": "① Four rules for reading graphs"
+      },
+      {
+       "t": 47.17,
+       "title": "② Example: a piecewise v–t graph"
+      },
+      {
+       "t": 140.53,
+       "title": "③ One time axis: x–t, v–t, a–t"
+      },
+      {
+       "t": 229.97,
+       "title": "④ Three common traps"
+      },
+      {
+       "t": 271.27,
+       "title": "Summary"
+      }
+     ],
+     "transcript": [
+      {
+       "title": "① Four rules for reading graphs",
+       "lines": [
+        "This episode is about motion graphs: position, velocity, and acceleration versus time.",
+        "You only need four rules.",
+        "Rule one: the slope of the tangent on an x–t graph is the velocity at that instant. Tilted up, v is positive, and tilted down, v is negative.",
+        "Rule two: the slope of a v–t graph is the acceleration a.",
+        "Rule three: the area under a v–t graph is the displacement Δx, and area below the t-axis counts as negative.",
+        "Rule four: the area under an a–t graph is the change in velocity, Δv.",
+        "Slope means derivative, and area means integral, just like last episode."
+       ]
+      },
+      {
+       "title": "② Example: a piecewise v–t graph",
+       "lines": [
+        "Example: a cart moves in a straight line, and its v–t graph has three straight segments.",
+        "Find each acceleration, the displacement and distance, when it's farthest from the start, and sketch the x–t and a–t graphs.",
+        "First, slopes: from 0 to 4 seconds, v rises from 0 to 8, so a is 8 over 4, or 2 m/s².",
+        "From 4 to 10 seconds the line is flat, so a equals 0.",
+        "From 10 to 16 seconds, v drops from 8 to negative 4, so a is negative 12 over 6, or negative 2 m/s².",
+        "Now, areas: v drops by 2 each second, so it goes from 8 to 0 in 4 seconds, crossing zero at 14 seconds.",
+        "Cut the area where v changes sign: 16, 48, 16, and this small piece below the axis is negative 4.",
+        "Displacement is the signed sum: 76 meters.",
+        "Distance ignores direction, so add the absolute values: 84 meters.",
+        "Average velocity is 76 over 16, or 4.75 meters per second; average speed is 84 over 16, or 5.25 meters per second.",
+        "Average velocity uses displacement, average speed uses distance: don't mix them up."
+       ]
+      },
+      {
+       "title": "③ One time axis: x–t, v–t, a–t",
+       "lines": [
+        "Now line up the x–t and a–t graphs on one time axis, with the cart moving exactly as the v–t graph says.",
+        "The cart starts at x equals 0, so its position at any moment is the area under the v graph so far.",
+        "From 0 to 4 seconds, v grows steadily, so x climbs faster and faster: a parabola bending up, to 16 meters.",
+        "From 4 to 10 seconds, v is constant: x is a straight line with slope 8, up to 64 meters, and a is 0.",
+        "After 10 seconds the cart slows down, and the curve bends downward. At 14 seconds, v equals 0, the tangent is flat, and x peaks at 80 meters.",
+        "After that, v turns negative, the cart backs up, and x falls back to 76 meters.",
+        "So, (c): the cart is farthest from start at 14 seconds, when v switches from positive to negative: 80 meters.",
+        "Check (b): the final 76 meters is the displacement. Going 80 forward and 4 back makes the distance 84 meters.",
+        "(d): the a–t graph is three flat lines at 2, 0, and negative 2.",
+        "The area under it is the change in velocity: 2 times 4 is 8, and negative 2 times 6 is negative 12. That matches the v–t graph exactly."
+       ]
+      },
+      {
+       "title": "④ Three common traps",
+       "lines": [
+        "Finally, three common traps.",
+        "First: v equals 0 does not mean a equals 0. At the top of a vertical throw, v is zero, but the slope is still negative g.",
+        "Second: where two cars' x–t graphs cross, the cars meet.",
+        "Where their v–t graphs cross, they only have the same velocity. In a chase problem, that's when the gap is largest or smallest.",
+        "Third: an x–t graph heading down does not mean slowing down. Look at the steepness: if it gets steeper, the object is speeding up.",
+        "Only if it gets flatter is it slowing down."
+       ]
+      },
+      {
+       "title": "Summary",
+       "lines": [
+        "To sum up: slopes take you from x to v to a. Areas take you from a to Δv, and from v to Δx.",
+        "When v crosses zero and changes sign, x reaches a max or min. Distance is the sum of the absolute values of the areas.",
+        "See you in the next episode!"
        ]
       }
      ]
@@ -1748,6 +2776,106 @@ window.EPISODE_DATA = {
         "二次方程解出两个根，要按物理意义取舍。",
         "追及问题：位置相等是追上；速度相等时，距离最大或最小。",
         "我们下一集见！"
+       ]
+      }
+     ]
+    },
+    "en": {
+     "video": "videos/en/13-uniform-acceleration-and-free-fall.mp4",
+     "poster": "posters/en/13-uniform-acceleration-and-free-fall.jpg",
+     "duration": 344.3,
+     "chapters": [
+      {
+       "t": 0.0,
+       "title": "① Where the four equations come from"
+      },
+      {
+       "t": 53.33,
+       "title": "② Example 1: Braking"
+      },
+      {
+       "t": 105.13,
+       "title": "③ Example 2: Thrown up from a cliff"
+      },
+      {
+       "t": 225.03,
+       "title": "④ Example 3: Catching up"
+      },
+      {
+       "t": 313.67,
+       "title": "Summary"
+      }
+     ],
+     "transcript": [
+      {
+       "title": "① Where the four equations come from",
+       "lines": [
+        "This episode: motion with constant acceleration, four equations, and three classic problems.",
+        "With constant a, integrate once over time: v equals v0 plus a t.",
+        "The v–t graph is a straight line, and its slope is a.",
+        "The displacement is the area: a rectangle, v0 t, plus a triangle, one half a t squared.",
+        "Or use the whole trapezoid: Δx is the average of v0 and v, times t.",
+        "Eliminate t from equations one and three to get v squared equals v0 squared plus 2 a Δx.",
+        "Five quantities, and each equation is missing exactly one.",
+        "The rule: find the quantity that's neither given nor asked for, and use the equation missing it."
+       ]
+      },
+      {
+       "title": "② Example 1: Braking",
+       "lines": [
+        "Example 1: a car at 20 meters per second brakes and skids 40 meters to a stop. Find the acceleration and braking time.",
+        "First, watch the braking: the speed drops steadily, covering less ground each second.",
+        "We know Δx is 40 meters, v0 is 20, and v is 0, and we want a.",
+        "Time is neither given nor asked for, so use the equation without t.",
+        "0 equals 20 squared plus 2 a times 40, so a equals negative 5.0 m/s².",
+        "The negative sign means a points opposite to v.",
+        "Then v equals v0 plus a t gives t equals 4.0 seconds, matching the 4 seconds on screen."
+       ]
+      },
+      {
+       "title": "③ Example 2: Thrown up from a cliff",
+       "lines": [
+        "Example 2: from the edge of a 20 meter cliff, a ball is thrown straight up at 15 meters per second. How high does it rise, when does it land, and how fast is it going then?",
+        "Take up as positive and the cliff top as the origin, so a is always negative 9.8 m/s².",
+        "(a): on the way up, the ball keeps slowing down, as we plot the y–t and v–t graphs.",
+        "At the top, v is zero, but a is still negative 9.8, not zero!",
+        "With no t, use the v squared equation: 0 equals 15 squared minus 2 times 9.8 times h, so h is about 11.5 meters.",
+        "That takes about 1.53 seconds, right where the v–t graph crosses zero.",
+        "(b): at landing, the displacement is negative 20 meters, not positive 20.",
+        "Plug into the displacement equation: 4.9t² − 15t − 20 = 0.",
+        "Two roots: 4.07 seconds and negative 1.00 second.",
+        "The negative root is a time before the throw, with no physical meaning, so we drop it.",
+        "Back at the cliff top at about 3.06 seconds, it moves down at 15 meters per second, mirroring the throw.",
+        "About one second later, the ball hits the ground.",
+        "(c): v is 15 minus 9.8 times 4.07, about negative 24.8, or 24.8 meters per second downward.",
+        "Check with v squared: 15 squared plus 2 times negative 9.8 times negative 20 is 617, whose root is 24.8.",
+        "The v–t graph is one straight line of slope negative 9.8, passing through zero without bending."
+       ]
+      },
+      {
+       "title": "④ Example 3: Catching up",
+       "lines": [
+        "Example 3: car B passes stopped car A at 24 meters per second, just as car A starts chasing at 3.0 m/s². How long until A catches B, and what is the largest gap before then?",
+        "A's position is one half a t squared, or 1.5 t squared, and B's is 24 t.",
+        "At first, B is faster than A, so the gap keeps growing.",
+        "At 8 seconds the speeds are equal, and the gap is largest: 96 meters.",
+        "After that, A is faster, and the gap shrinks until A catches B.",
+        "Catching up means equal positions: 1.5 t squared equals 24 t, so t is 16 seconds, at 384 meters.",
+        "A is then going 48 meters per second, twice B's speed.",
+        "The gap is largest at equal velocities: 3.0 t equals 24, so t is 8 seconds, and the gap is 96 meters.",
+        "On the v–t graph, both triangles have area 96 meters: the gap opens up, then A wins it back.",
+        "Remember: where the x–t graphs cross, A catches B. Where the v–t graphs cross, the velocities are equal and the gap is largest."
+       ]
+      },
+      {
+       "title": "Summary",
+       "lines": [
+        "Let's wrap up.",
+        "Each equation is missing one quantity. Find the one that's neither given nor asked for, and use the equation without it.",
+        "For a vertical throw, a is negative g the whole way, even at the top.",
+        "A quadratic gives two roots, so keep the one that makes physical sense.",
+        "In a chase, equal x means caught up, and equal v means the gap is largest or smallest.",
+        "See you in the next episode!"
        ]
       }
      ]
@@ -1933,7 +3061,7 @@ window.EPISODE_DATA = {
         "Take the time derivative to get the velocity v(t); differentiate again, and the acceleration is just −9.8ĵ, straight down.",
         "Watch: vector r points from the origin to the ball; vector v is tangent to the path: constant horizontal part, steadily shrinking vertical part.",
         "At 1.63 seconds, the vertical velocity is zero: the peak, about 23.1 meters up.",
-        "It lands when y is zero: 4.9 t squared minus 16 t minus 10 equals zero. Taking the positive root, t is about 3.80 seconds.",
+        "Setting y equal to zero gives 4.9 t squared minus 16 t minus 10 equals zero. Taking the positive root, t is about 3.80 seconds.",
         "Landing point: x equals 12 times 3.80, about 45.6 meters.",
         "Plug t into v(t): the landing velocity is 12î − 21.3ĵ, a speed of about 24.4 m/s."
        ]
@@ -2052,6 +3180,95 @@ window.EPISODE_DATA = {
        ]
       }
      ]
+    },
+    "en": {
+     "video": "videos/en/15-relative-motion.mp4",
+     "poster": "posters/en/15-relative-motion.jpg",
+     "duration": 288.1,
+     "chapters": [
+      {
+       "t": 0.0,
+       "title": "Intro"
+      },
+      {
+       "t": 57.6,
+       "title": "Example 1  Heading straight across"
+      },
+      {
+       "t": 134.8,
+       "title": "Example 2  Landing directly across"
+      },
+      {
+       "t": 208.6,
+       "title": "Example 3  Rain seen from a car"
+      },
+      {
+       "t": 259.43,
+       "title": "Summary"
+      }
+     ],
+     "transcript": [
+      {
+       "title": "Intro",
+       "lines": [
+        "Relative motion: the same object has different velocities in different reference frames.",
+        "An airport moving walkway goes 1.5 m/s relative to the ground. Stand still on it, and so do you.",
+        "Now walk forward at 1.0 m/s relative to the walkway. From the ground, your speed is 1.5 plus 1.0: 2.5 m/s.",
+        "Walk backward, and you only get 1.5 minus 1.0: 0.5 m/s, still to the right.",
+        "Adding or subtracting, both are really vector addition.",
+        "In general: A relative to ground equals A relative to B, plus B relative to ground.",
+        "In the subscripts, the inner B's cancel, leaving A relative to G.",
+        "If the directions differ, place the vectors tip to tail to form a triangle."
+       ]
+      },
+      {
+       "title": "Example 1  Heading straight across",
+       "lines": [
+        "Example 1: A 60-meter-wide river flows east at 3.0 m/s. A boat moves 4.0 m/s relative to the water, always heading due north.",
+        "Find the crossing time, the downstream drift, and the boat's velocity relative to the shore.",
+        "Draw the velocity triangle: boat relative to water, 4.0 north; plus water relative to shore, 3.0 east. The sum is the boat's velocity relative to the shore.",
+        "Go! The bow points north, but the boat moves along the resultant, at an angle. The faint boat, in still water, reaches the far bank at the same time.",
+        "So the crossing time uses only the velocity across the river: 60 divided by 4.0 is 15 seconds.",
+        "Meanwhile, the current carries it 3.0 times 15, or 45 meters, downstream.",
+        "The speed relative to the shore is the hypotenuse of a 3-4-5 triangle: 5.0 m/s.",
+        "Its direction, 36.9 degrees east of north, matches the actual path."
+       ]
+      },
+      {
+       "title": "Example 2  Landing directly across",
+       "lines": [
+        "Example 2: Same river. Which way should the boat head to land directly across? And how long will it take?",
+        "Turn the bow upstream, and the resultant velocity swings back.",
+        "Once the resultant points due north, the boat will land directly across.",
+        "Now the boat's westward component exactly cancels the current. 4.0 sinθ = 3.0, so θ is about 48.6 degrees west of north.",
+        "The shore speed is the other leg: the square root of 4 squared minus 3 squared, about 2.65 m/s.",
+        "Crossing time: 60 divided by 2.65, about 22.7 seconds. The bow angles upstream, but the boat goes straight across.",
+        "Compare: Example 1 heads straight across, for the shortest time, 15 seconds, but travels 75 meters.",
+        "Example 2 has the shortest path, 60 meters, but takes 22.7 seconds.",
+        "You can't get the shortest time and the shortest path at once."
+       ]
+      },
+      {
+       "title": "Example 3  Rain seen from a car",
+       "lines": [
+        "Example 3: Rain falls straight down at 8.0 m/s, and a car drives right at 6.0 m/s. How does the rain fall, as seen from inside the car?",
+        "From the ground, the rain falls straight down, and the car drives right.",
+        "Inside the car, the car is at rest and the trees move backward; so does the rain, slanting toward the windshield.",
+        "Rain relative to car equals rain relative to ground, plus ground relative to car. That last term is minus car relative to ground.",
+        "8.0 down plus 6.0 to the left gives 10 m/s.",
+        "It's 36.9 degrees from vertical, hitting the car from the front."
+       ]
+      },
+      {
+       "title": "Summary",
+       "lines": [
+        "To sum up: A relative to ground equals A relative to B plus B relative to ground, added tip to tail.",
+        "Treat each direction separately: the crossing time uses only the velocity across the river.",
+        "Head straight across for the shortest time; aim the resultant straight across for the shortest path, if the boat is faster than the current.",
+        "Next episode: Newton's laws and apparent weight."
+       ]
+      }
+     ]
     }
    }
   },
@@ -2078,7 +3295,7 @@ window.EPISODE_DATA = {
       },
       {
        "t": 62.17,
-       "title": "② 书放在桌上"
+       "title": "① 牛顿第三定律的误区"
       },
       {
        "t": 136.23,
@@ -2102,7 +3319,7 @@ window.EPISODE_DATA = {
        ]
       },
       {
-       "title": "② 书放在桌上",
+       "title": "① 牛顿第三定律的误区",
        "lines": [
         "问题一：马拉车，车也拉马，两个力等大反向。那车为什么能动？",
         "马拉车的力，和车拉马的力，确实是一对作用力与反作用力，等大、反向。",
@@ -2142,6 +3359,85 @@ window.EPISODE_DATA = {
         "第三定律：一对力等大、反向、同种性质，作用在不同物体上，不能相互抵消。",
         "视重就是支持力：N = m(g + a)，a 向上为正。",
         "失重不是没有重力。我们下集见！"
+       ]
+      }
+     ]
+    },
+    "en": {
+     "video": "videos/en/16-newtons-laws-and-apparent-weight.mp4",
+     "poster": "posters/en/16-newtons-laws-and-apparent-weight.jpg",
+     "duration": 329.0,
+     "chapters": [
+      {
+       "t": 0.0,
+       "title": "Intro"
+      },
+      {
+       "t": 63.87,
+       "title": "① Third-Law Misconceptions"
+      },
+      {
+       "t": 144.1,
+       "title": "② Example: Apparent Weight in an Elevator"
+      },
+      {
+       "t": 297.9,
+       "title": "Summary"
+      }
+     ],
+     "transcript": [
+      {
+       "title": "Intro",
+       "lines": [
+        "This episode covers Newton's three laws, plus apparent weight in an elevator.",
+        "First, the law of inertia: with zero net force, an object stays at rest, or moves at constant velocity. The ice is almost frictionless, so the puck covers the same distance every second.",
+        "Second law: net force equals m a. It's a vector equation: a points along the net force, and it holds separately in x and y.",
+        "Third law: if A pushes on B, B pushes back on A. The two forces are equal and opposite, and they act on different objects.",
+        "Finally, don't mix up mass and weight. Mass measures inertia, in kilograms, and it's the same everywhere.",
+        "Weight, W equals mg, is a force, measured in newtons. A 60 kilogram person weighs 588 N on Earth; on the Moon, only about a sixth of that, roughly 98 N."
+       ]
+      },
+      {
+       "title": "① Third-Law Misconceptions",
+       "lines": [
+        "Question 1: a horse pulls a cart, and the cart pulls back on the horse, equally hard and opposite. So how can the cart move at all?",
+        "The horse pulling the cart and the cart pulling the horse really are an action-reaction pair. They are equal and opposite.",
+        "But they act on different objects: one on the cart, one on the horse. So they can't cancel each other.",
+        "Whether the cart accelerates depends only on the forces on the cart. The horse's pull beats the ground's resistance, so the net force is forward and it speeds up.",
+        "Now the horse. Its hooves push back on the ground, so static friction from the ground pushes it forward. That's bigger than the cart's pull, so the horse speeds up too.",
+        "Another common trap: a book rests on a table. Gravity, mg, and the normal force N are equal and opposite. Are they an action-reaction pair?",
+        "No! Both act on the book, and they're different kinds of force. They're equal only because the book's acceleration is zero.",
+        "The reaction to mg is the book's gravitational pull on Earth; the reaction to N is the book pushing down on the table."
+       ]
+      },
+      {
+       "title": "② Example: Apparent Weight in an Elevator",
+       "lines": [
+        "Part (b): going up and speeding up, so a points up. N = 60 × 11.8, or 708 N. You feel heavier.",
+        "Constant speed upward: a is zero, so the reading is back to 588 N, same as at rest.",
+        "Near the top, it slows down. The velocity is still up, but a points down, so the reading drops.",
+        "Part (c): going down and speeding up. N = 60 × 7.8, or 468 N.",
+        "Constant speed downward: 588 N.",
+        "Slowing down on the way down: the velocity is down, but a points up! The reading is 708 N.",
+        "Example: a 60 kilogram person stands on a scale in an elevator. Find the scale reading: at rest or at constant velocity; going up and speeding up at 2.0 m/s²; going down and speeding up; and when the cable snaps.",
+        "The scale reading is really the normal force N from the scale on the person. We call it the apparent weight.",
+        "Only two forces act on the person: N up, and mg down. Taking up as positive, N − mg = ma, so N = m(g + a).",
+        "Part (a), at rest or constant velocity: a is zero, so N equals mg, 588 N.",
+        "Think: if the elevator is moving down but slowing down, is the reading more or less than 588 N?",
+        "Look at the two orange segments: in one the velocity is up, in the other it's down. But both slopes are positive, and both readings are 708 N.",
+        "So the reading depends only on the acceleration, not on the direction of motion.",
+        "Part (d): the cable snaps!",
+        "The person and the scale fall together: a equals negative g, so N is zero. The scale reads zero, and the person feels weightless.",
+        "But weightless doesn't mean no gravity: mg is still there. The scale just isn't holding the person up anymore."
+       ]
+      },
+      {
+       "title": "Summary",
+       "lines": [
+        "Let's sum up. Second law: net force equals m a, separately along each axis.",
+        "Third law: the two forces in a pair are equal, opposite, and the same type. They act on different objects, so they never cancel.",
+        "Apparent weight is the normal force: N = m(g + a), with up as positive.",
+        "And weightless doesn't mean no gravity. See you in the next episode!"
        ]
       }
      ]
@@ -2253,6 +3549,100 @@ window.EPISODE_DATA = {
        ]
       }
      ]
+    },
+    "en": {
+     "video": "videos/en/17-tension-and-connected-objects.mp4",
+     "poster": "posters/en/17-tension-and-connected-objects.jpg",
+     "duration": 356.4,
+     "chapters": [
+      {
+       "t": 0.0,
+       "title": "Intro"
+      },
+      {
+       "t": 54.6,
+       "title": "① Example 1: Pushing Two Blocks"
+      },
+      {
+       "t": 138.7,
+       "title": "② Example 2: Pulling a Train of Blocks"
+      },
+      {
+       "t": 202.43,
+       "title": "③ Example 3: The Atwood Machine"
+      },
+      {
+       "t": 323.3,
+       "title": "Summary"
+      }
+     ],
+     "transcript": [
+      {
+       "title": "Intro",
+       "lines": [
+        "This episode is about tension and connected objects.",
+        "A light rope has three properties. First, the tension acts along the rope, and it's the same everywhere.",
+        "Cut the rope anywhere: each side pulls with T, equal to the hand's pull F.",
+        "Second, a rope can only pull, never push. Push it, and it goes slack: zero tension.",
+        "Third, an ideal pulley changes the direction of the tension, but not its size.",
+        "There are two ways to solve connected objects. The system method: objects with the same acceleration are treated as one body. Internal forces cancel, so this finds the acceleration.",
+        "The isolation method: pull out one object by itself. This finds internal forces, like tension and contact forces."
+       ]
+      },
+      {
+       "title": "① Example 1: Pushing Two Blocks",
+       "lines": [
+        "Example 1: blocks A and B, 2.0 and 4.0 kilograms, sit side by side. A 12 N force pushes A from the left. Find the acceleration and the force between A and B.",
+        "First, the system: A and B move together, so the push between them is internal. a equals 12 divided by 6.0, which is 2.0 m/s².",
+        "Now isolate block B. Horizontally, the only force on it is the push P from A.",
+        "P equals B's mass times a: 4.0 times 2.0, or 8.0 N. By the third law, B pushes back on A with 8.0 N.",
+        "Check block A: 12 minus 8.0 equals 2.0 times 2.0.",
+        "Follow-up question: what if we push B from the right?",
+        "The acceleration is still 2.0, now to the left. Now A is the one pushed along: P equals 2.0 times 2.0, or 4.0 N.",
+        "The rule: the contact force equals the mass being pushed along, times a. So the side you push on changes the answer."
+       ]
+      },
+      {
+       "title": "② Example 2: Pulling a Train of Blocks",
+       "lines": [
+        "Example 2: blocks of 1.0, 2.0, and 3.0 kilograms are tied in a row by light ropes. An 18 N force pulls C to the right. Find the acceleration and the tension in each rope.",
+        "All three accelerate together. The rope tensions are internal, so a equals 18 over the total mass, 6.0: 3.0 m/s².",
+        "The rope between B and C has to pull both A and B behind it.",
+        "The boxed mass is 3.0 kilograms. Times 3.0, the tension between B and C is 9.0 N.",
+        "The rope between A and B pulls only A: 1.0 times 3.0, or 3.0 N.",
+        "From the pulling end back: 18, 9, 3, getting smaller. Each rope pulls only the mass behind it."
+       ]
+      },
+      {
+       "title": "③ Example 3: The Atwood Machine",
+       "lines": [
+        "Example 3: the Atwood machine. A light rope over a frictionless pulley holds 3.0 and 5.0 kilogram masses, released from rest.",
+        "Find the acceleration, the tension, and how far each mass moves in 2.0 seconds.",
+        "One goes up, one goes down: so how can we use the system method? Just like in Episode 6: straighten out the rope.",
+        "Imagine unwrapping the rope from the pulley, so both masses line up.",
+        "Along the rope, m₂g pulls forward and m₁g pulls back. The two tensions are internal forces, so they cancel.",
+        "The net force is the difference, 19.6 N; the total mass is 8.0 kilograms. So a equals 2.45 m/s².",
+        "Put the rope back and isolate m₁: T up, minus m₁g down, equals m₁a.",
+        "T equals 3.0 times the quantity 9.8 plus 2.45, about 36.8 N.",
+        "Check with m₂: 5.0 times the quantity 9.8 minus 2.45 is also 36.8 N.",
+        "Think: why is T between 29.4 N and 49 N?",
+        "m₁ accelerates upward, so the tension must be bigger than its weight; m₂ accelerates downward, so the tension must be smaller than its weight. T has to be in between.",
+        "Finally, d equals one half a t squared: one half times 2.45 times 2.0 squared, or 4.9 m.",
+        "After 2.0 seconds, one rises 4.9 m and the other drops 4.9 m."
+       ]
+      },
+      {
+       "title": "Summary",
+       "lines": [
+        "Let's sum up.",
+        "A light rope's tension acts along the rope, is the same everywhere, and can only pull; an ideal pulley only changes its direction.",
+        "The system method finds the acceleration: internal forces cancel.",
+        "Isolate to find tension: on a flat, frictionless surface, it's the mass being pulled, times a.",
+        "Atwood machine: a equals the difference of the masses times g, divided by their sum.",
+        "See you in the next episode!"
+       ]
+      }
+     ]
     }
    }
   },
@@ -2275,7 +3665,7 @@ window.EPISODE_DATA = {
      "chapters": [
       {
        "t": 0.0,
-       "title": "① 跳伞：阻力追上重力"
+       "title": "① 阻力随速度增大"
       },
       {
        "t": 53.87,
@@ -2296,7 +3686,7 @@ window.EPISODE_DATA = {
      ],
      "transcript": [
       {
-       "title": "① 跳伞：阻力追上重力",
+       "title": "① 阻力随速度增大",
        "lines": [
         "这一集讲阻力与终端速度。",
         "物体在空气或水中运动时会受到阻力，速度越大，阻力越大。",
@@ -2358,6 +3748,100 @@ window.EPISODE_DATA = {
         "下落速度按指数逼近 v_T；只有阻力时指数衰减，总距离 v₀τ。",
         "解题套路：牛顿第二定律，分离变量，再积分。",
         "我们下期再见！"
+       ]
+      }
+     ]
+    },
+    "en": {
+     "video": "videos/en/18-drag-and-terminal-velocity.mp4",
+     "poster": "posters/en/18-drag-and-terminal-velocity.jpg",
+     "duration": 355.0,
+     "chapters": [
+      {
+       "t": 0.0,
+       "title": "① Drag grows with speed"
+      },
+      {
+       "t": 57.5,
+       "title": "② Deriving v(t)"
+      },
+      {
+       "t": 154.77,
+       "title": "③ Example 1: falling ball"
+      },
+      {
+       "t": 247.27,
+       "title": "④ Example 2: coasting boat"
+      },
+      {
+       "t": 323.43,
+       "title": "Summary"
+      }
+     ],
+     "transcript": [
+      {
+       "title": "① Drag grows with speed",
+       "lines": [
+        "This episode is about drag and terminal velocity.",
+        "Anything moving through air or water feels drag, and more speed means more drag.",
+        "At low speed, drag is proportional to v: F = −bv. The minus sign means drag opposes the velocity. At high speed, drag is roughly proportional to v squared.",
+        "AP C mostly tests linear drag, so that's all we'll cover.",
+        "For a skydiver: right after the jump, v is zero, so there's no drag and a equals g.",
+        "As speed grows, the drag bv grows, so the net force and the acceleration shrink.",
+        "When drag equals gravity, the net force is zero and v stops increasing: that's terminal velocity.",
+        "So mg = bv_T, and v_T = mg/b."
+       ]
+      },
+      {
+       "title": "② Deriving v(t)",
+       "lines": [
+        "Take down as positive. Gravity, mg, points down, and drag, bv, points up.",
+        "Newton's second law: m dv/dt = mg − bv.",
+        "At terminal velocity, dv/dt is zero, so right away, v_T = mg/b.",
+        "To get v as a function of time, we solve this differential equation.",
+        "Divide both sides by m. Then put the v terms on the left and dt on the right: that's separation of variables.",
+        "Integrate both sides, from 0 to v and from 0 to t.",
+        "The left side integrates to a natural log. Exponentiate both sides, then solve for v.",
+        "Let v_T = mg/b and τ = m/b: then v = v_T(1 − e^(−t/τ)). τ is called the time constant.",
+        "Here's the v–t graph: v starts at zero and approaches v_T, but never goes past it.",
+        "At t = 0 there's no drag, so the tangent slope is g. This tangent line meets the v_T line exactly at t = τ.",
+        "At t = τ, the speed reaches 63% of v_T. At 3τ, it reaches 95%.",
+        "Differentiating gives the acceleration, a = g e^(−t/τ): it starts at g and decays to zero."
+       ]
+      },
+      {
+       "title": "③ Example 1: falling ball",
+       "lines": [
+        "Example 1: a 0.50 kg ball falls from rest with drag F = −bv, and b is 0.25 kg/s. Find the terminal velocity, the time constant, the speed at 2.0 s, and the acceleration when v = 10 m/s.",
+        "First, the motion: no drag on the left, drag on the right, both released from rest together.",
+        "(a) v_T = mg/b: 0.50 times 9.8, over 0.25, is 19.6 m/s.",
+        "(b) The time constant τ = m/b is 2.0 seconds. The gray free-fall line is the tangent at t = 0, and it meets the v_T line right at τ.",
+        "(c) 2.0 seconds is exactly one τ, so v is 63% of v_T: about 12.4 m/s.",
+        "(d) We don't need v(t) here. Just use Newton's second law: a = g − (b/m)v.",
+        "9.8 − 0.50 × 10 = 4.8 m/s²: the tangent slope right here.",
+        "In 2 seconds, the ball with drag falls about 14.4 meters, versus 19.6 meters in free fall."
+       ]
+      },
+      {
+       "title": "④ Example 2: coasting boat",
+       "lines": [
+        "Example 2: a 200 kg boat at 5.0 m/s shuts off its engine. Water drag is F = −bv, with b equal to 40 kg/s. How long until its speed is halved? How far can it coast?",
+        "Now drag is the only force: m dv/dt = −bv. Separating variables and integrating gives exponential decay, v = v₀e^(−t/τ).",
+        "τ = m/b, which is 200 over 40, or 5.0 seconds.",
+        "With the engine off, the boat slows down, and the drag gets smaller too.",
+        "Half speed means e^(−t/τ) = 1/2, so t = τ ln2: about 3.5 seconds.",
+        "The distance is the area under the v–t curve: integrating from 0 to infinity gives v₀τ, 25 meters.",
+        "The speed never truly hits zero, but the distance is finite: the boat just creeps toward 25 meters."
+       ]
+      },
+      {
+       "title": "Summary",
+       "lines": [
+        "Let's sum up.",
+        "Linear drag is F = −bv. Set the acceleration to zero to get the terminal velocity, mg/b.",
+        "A falling object approaches v_T exponentially. With drag alone, speed decays exponentially, and the total distance is v₀τ.",
+        "The recipe: Newton's second law, separate variables, then integrate.",
+        "See you next time!"
        ]
       }
      ]
